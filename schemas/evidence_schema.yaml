@@ -1,0 +1,16 @@
+# Placeholder schema for literature evidence grading.
+# This file defines intended fields only; it contains no evidence records.
+
+fields:
+  source_record_id: # Stable source identifier for a paper or dataset.
+  citation_key: # Citation handle or bibliographic identifier.
+  organism: # Organism or species covered by the source.
+  antimicrobial: # Drug or drug class covered by the evidence.
+  marker_id: # Link to marker_schema.yaml when applicable.
+  evidence_level: # Preliminary level from docs/evidence_grading.md.
+  isolate_set_linkage: # Whether genotype and phenotype are from the same isolates.
+  phenotype_data_available: # Whether MIC or other phenotype data are available.
+  genotype_data_available: # Whether marker or genome data are available.
+  extraction_status: # Pending, extracted, reviewed, or excluded.
+  exclusion_reason: # Reason for exclusion when applicable.
+  notes: # Curation notes and uncertainty flags.

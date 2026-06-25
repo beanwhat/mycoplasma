@@ -1,0 +1,17 @@
+# Placeholder schema for MIC phenotype data.
+# This file defines intended fields only; it contains no MIC records.
+
+fields:
+  isolate_id: # Link to isolate_schema.yaml.
+  source_record_id: # Link to the literature or dataset source.
+  antimicrobial: # Drug name as reported and curated.
+  mic_value: # Numeric MIC value when available.
+  mic_operator: # Operator such as <=, =, or >= when reported.
+  mic_unit: # MIC unit, typically ug/mL or equivalent.
+  test_method: # Broth microdilution, agar dilution, or other method.
+  medium: # Test medium when reported.
+  incubation_conditions: # Temperature, atmosphere, and duration when reported.
+  replicate_summary: # Replicate handling or summary rule if applicable.
+  interpretation_rule_id: # Prespecified breakpoint or ECOFF rule, if used.
+  phenotype_category: # Optional derived category only under a documented rule.
+  notes: # Curation notes and uncertainty flags.
