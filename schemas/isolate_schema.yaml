@@ -1,0 +1,16 @@
+# Placeholder schema for isolate-level metadata.
+# This file defines intended fields only; it contains no isolate records.
+
+fields:
+  isolate_id: # Stable internal isolate identifier.
+  source_record_id: # Link to the literature or dataset source.
+  organism: # Taxonomic name reported or curated for the isolate.
+  species: # Species-level assignment when available.
+  strain_name: # Reported strain or isolate name.
+  host: # Host species or source category.
+  country: # Country or region of origin when reported.
+  collection_year: # Year of isolation or sample collection.
+  sample_type: # Clinical, environmental, or other sample type.
+  disease_context: # Clinical context when reported.
+  sequencing_accession: # Genome or read accession if available.
+  notes: # Curation notes and uncertainty flags.

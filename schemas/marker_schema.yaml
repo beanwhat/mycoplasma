@@ -1,0 +1,17 @@
+# Placeholder schema for genetic marker observations.
+# This file defines intended fields only; it contains no marker records.
+
+fields:
+  isolate_id: # Link to isolate_schema.yaml.
+  source_record_id: # Link to the literature or dataset source.
+  marker_id: # Stable internal marker identifier.
+  marker_type: # SNP, indel, gene presence, copy context, or other marker type.
+  gene: # Gene or locus name as reported and curated.
+  locus: # Genomic locus, region, or target when available.
+  reference_sequence: # Reference sequence or coordinate system if reported.
+  reference_position: # Position under the stated reference system.
+  observed_variant: # Reported variant or allele state.
+  detection_method: # Sequencing, PCR, targeted assay, or other method.
+  allele_copy_context: # Copy number or allele context when relevant.
+  rule_status: # Candidate, transferred hypothesis, or validated rule status.
+  notes: # Curation notes and uncertainty flags.
